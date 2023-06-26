@@ -1,0 +1,505 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Epilogue', sans-serif;
+}
+
+
+
+#top_bar{background-color: #fff;padding: 20px 0;}
+.logo{
+
+}
+.logo img{
+
+max-width: 150px;
+}
+
+
+
+#banner{
+background-image: url(../images/heero.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.banner_text{
+
+}
+.banner_text h1{
+
+color: #fff;
+
+font-size: 40px;
+
+margin-top: 40px;
+}
+.banner_text h3{
+
+color: #fff;
+
+font-size: 22px;
+}
+.banner_text p{
+
+color: #fff;
+
+margin: 20px 0px;
+}
+.dobnate_buttn{margin: 50px 0;}
+.bttn{
+
+text-decoration: none;
+
+color: #fff;
+
+background: #b02830;
+
+padding: 16px 35px;
+
+border-radius: 5px;
+}
+.bttn:hover{
+background-color: #b0283191;
+color: #fff;
+}
+.card_donate:hover{
+background-color: #b0283191;
+color: #fff; 
+}
+.big_donate:hover{
+background-color: #b0283191;
+color: #fff; 
+}
+.donation-box{
+}
+.head-sec{
+padding: 15px;
+color: #fff;
+background-color: #353535;
+text-align: center;
+}
+.bold{
+color: #fff;
+font-weight: 600;
+}
+.head-sec h4{
+
+margin-bottom: 0;
+
+font-size: 22px;
+}
+.body-sec{
+
+padding: 30px 25px;
+
+background: #F9F1EA;
+}
+.donate-shortlist{
+display: flex;
+justify-content: space-between;
+list-style: none;
+padding: 0;
+}
+.donate-shortlist li{
+
+width: calc(33.333333% - 10px);
+}
+.radio-one {display: block;position: relative;margin-bottom: 0;cursor: pointer;padding: 20px 0;text-align: center;font-weight: 700;line-height: 22px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;z-index: 4;}
+.radio-one input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+.radio-one .checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: #ffffff;
+z-index: -1;
+}
+.txt{color: #353535;font-size: 26px;}
+.inp_text{
+
+font-size: 14px;
+
+color: #353535;
+
+margin-top: 5px;
+}
+.big_bttnnn{
+
+text-align: center;
+
+margin-top: 30px;
+}
+.big_donate{
+
+padding: 14px 80px;
+
+background: #b02830;
+
+color: #fff;
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+border: none;
+
+font-weight: 500;
+}
+.overlay{
+height: 100%;
+width: 100%;
+background: #b9191954;
+padding: 50px 0;
+}
+
+
+
+
+
+#dhul_hijjah{
+
+display: flex;
+
+align-items: center;
+
+background-color: #F9F1EA;
+
+padding: 60px 0 60px 80px;
+}
+.dhul_text{
+
+max-width: 42%;
+
+flex: 42%;
+}
+.dhul_text h2{
+
+text-transform: capitalize;
+font-weight: 700;
+font-size: 32px;
+color: #404042;
+}
+.dhul_text p{
+
+margin: 30px 0;
+
+color: #404042;
+}
+.dhul_image{
+
+flex: 49%;
+
+text-align: end;
+}
+.dhul_image img{width: 100%;}
+.dhul_bttn{
+
+}
+
+
+
+
+
+#kurbani{
+background-image: url(../images/Untitled\ design\ \(1\).jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.height{
+min-height: 300px;
+align-items: center;
+}
+.overlay_kur{
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.527);
+}
+.kurbani_txt{
+text-align: center;
+}
+.kurbani_txt h2{
+color: #fff;
+font-size: 48px;
+}
+.kurbani_txt p{
+color: #fff;
+margin: 30px 0;
+}
+
+
+
+
+#card{
+background-color: #F9F1EA;
+padding: 60px 0;
+}
+.card_colour{
+
+background: #ACD6BC;
+
+padding: 60px;
+}
+.card_head{
+
+}
+.card_head h2{
+
+text-align: center;
+
+font-size: 44px;
+
+font-weight: 700;
+}
+.card_wrap{
+
+text-align: center;
+
+background: #fff;
+
+padding: 40px 20px;
+
+margin-top: 40px;
+}
+.card_wrap h5{
+
+color: #2D2D2D;
+
+min-height: 66px;
+
+font-weight: 700;
+}
+.card_wrap h2{
+
+font-weight: 900;
+
+font-size: 44px;
+
+margin-bottom: 30px;
+}
+.card_wrap p{
+
+min-height: 65px;
+}
+.card_donate{
+
+text-decoration: none;
+
+background: #b02830;
+
+color: #fff;
+
+padding: 16px 60px;
+
+border-radius: 5px;
+}
+.basket{
+
+min-height: 134px;
+}
+.customme{font-size: 30px;min-height: 75px;font-weight: 700;}
+.amount_cut{
+padding-left: 25px;
+margin-bottom: 43px;
+}
+.form-control::placeholder{
+text-align: center;
+color: #404042;
+}
+.form_position{
+position: relative;
+}
+
+.dollerr::after{
+content: "$";
+display: inline;
+position:absolute;
+font-weight:bold;
+font-size:24px;
+color:#444;
+left: 7px;
+bottom: 0px;
+}
+
+
+
+
+
+#best_days{
+
+display: flex;
+
+align-items: center;
+
+background-color: #F9F1EA;
+}
+
+.best_text{
+
+max-width: 42%;
+
+flex: 42%;
+}
+
+.best_text h2{
+
+text-transform: capitalize;
+font-weight: 700;
+font-size: 32px;
+color: #404042;
+}
+.best_text p{
+
+margin: 30px 0;
+
+color: #404042;
+}
+.best_image{
+max-width: 50%;
+}
+.best_image img{width: 100%;}
+.best_bttn{
+margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#newslatter{
+
+background: #ACD7BC;
+
+padding: 80px 0;
+}
+.news_color{
+
+}
+.news_text{}
+.news_text h2{
+
+color: #fff;
+
+font-size: 44px;
+
+margin-bottom: 30px;
+}
+.inp_field{
+display: flex;
+}
+.news_feild{
+
+}
+.sub_bttn{
+
+background: #b02830;
+
+border: none;
+
+padding: 10px 20px;
+
+color: #fff;
+}
+.mail_type{
+border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#responsive{
+display: none;
+}
+
+.icon{
+
+margin-top: 40px;
+}
+.icon ul{
+
+display: flex;
+padding: 0;
+list-style: none;
+
+justify-content: space-evenly;
+
+align-items: center;
+}
+.icon ul li{
+
+height: 30px;
+
+width: 30px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+border-radius: 30px;
+
+border: 1px solid #0D6939;
+}
+.icon ul li a{
+}
+.icon ul li a i{
+
+color: #0D6939;
+
+margin-top: 5px;
+}
+.divider{
+
+display: block;
+
+height: 1px;
+
+width: 100%;
+
+background: #b5b5b5;
+
+margin: 30px 0;
+}
+.copy{
+
+text-align: center;
+
+font-size: 13px;
+
+color: #0D6939;
+}
+.copy p{
+
+}
+
+
+
+#banner_tab{
+display: none;
+}

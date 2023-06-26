@@ -1,0 +1,144 @@
+@media (max-width:1024px){
+    .card_wrap {
+        text-align: center;
+        background: #fff;
+        padding: 40px 5px;
+        margin-top: 40px;
+    }
+    #best_days {
+        padding: 40px 0;
+    }
+    .card_colour {
+        background: #ACD6BC;
+        padding: 40px 20px;
+    }
+    .big_donate {
+        padding: 14px 60px;
+    }
+}
+@media (max-width:992.99px){
+    .banner_text h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+    .banner_text h3 {
+        color: #fff;
+        font-size: 20px;
+    }
+    .banner_text p {
+        color: #fff;
+        margin: 25px 0px;
+    }
+    .inp_text {
+        font-size: 16px;
+        color: #353535;
+        min-height: 80px;
+        margin-top: 20px;
+    }
+    .big_donate {
+        padding: 14px 60px;
+    }
+    #dhul_hijjah {
+        padding: 60px 0 60px 60px;
+    }
+    #best_days {
+        display: flex;
+        align-items: center;
+        background-color: #F9F1EA;
+        padding: 60px 0;
+    }
+    #responsive{
+        display: inline;
+    }
+    #card{
+        display: none;
+    }
+    #banner{
+        display: none;
+    }
+    #banner_tab{
+        display: inherit;
+        background-image: url(../images/heero.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+    }
+}
+
+@media (max-width:575px){
+    #responsive {
+        display: none;
+    }
+    .card_colour {
+        background: #ACD6BC;
+        padding: 20px;
+    }
+    #card{
+        display: inline;
+    }
+    .best_image{
+        max-width: 100%;
+    }
+    .banner_text {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .inp_text {
+        font-size: 16px;
+        color: #353535;
+        min-height: 80px;
+        margin-top: 20px;
+    }
+    .big_donate {
+        padding: 14px 60px;
+      
+    }
+    .txt {
+        color: #353535;
+        font-size: 24px;
+    }
+    #dhul_hijjah{
+        display: inherit;
+        padding: 40px 15px;
+    }
+    .dhul_text{
+        max-width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .dhul_image{
+        max-width: 100%;
+    }
+    .height {
+        min-height: 400px;
+        align-items: center;
+    }
+    .kurbani_txt h2 {
+        color: #fff;
+        font-size: 34px;
+    }
+    .card_head h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #best_days {
+        display: inherit;
+        background-color: #F9F1EA;
+        padding-bottom: 40px;
+    }
+    .best_text {
+        max-width: 100%;
+        margin: 40px 20px;
+        text-align: center;
+    }
+    .news_text h2 {
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .card_donate {
+        padding: 16px 40px;
+    }
+}
